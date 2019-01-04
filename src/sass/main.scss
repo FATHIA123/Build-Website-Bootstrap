@@ -1,0 +1,70 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+   
+}
+
+// .form-control{
+//     width: 50% !important;
+// } 
+// #pills-tab{
+//     float: left;
+// }
+ul li {
+    list-style-type: none;
+    // float: left;
+    display: inline;
+    // float: right;
+    color: black;
+  }
+
+  ul li a { 
+      color: black;
+  }
+
+img:hover {
+    opacity: 0.5;
+    // max-width: 100%;
+ 
+}
+
+input {
+    width: 60%;
+}
+#serach {
+    position: absolute;
+}
+.container-fluid {
+    margin: 1em;
+    padding-right: 3em;
+    padding-left: 3em;
+    .row {
+        .col {
+            // margin: 10px;
+            // display: inline-block;
+            .notABox {
+                margin-bottom: 50px;
+                // padding: 0.25rem;
+                // flex: 1 1 auto;
+            }
+ 
+        }
+    }
+}
+
+.navbar1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:   nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    min-width: 830px;
+    background-color: #E8E8E8;
+
+}
+
+#img1 {
+    height: 40px;
+    width: 40px;
+}
+
