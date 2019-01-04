@@ -1,8 +1,5 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
-body {
-   
-}
 
 // .form-control{
 //     width: 50% !important;
@@ -16,24 +13,50 @@ ul li {
     display: inline;
     // float: right;
     color: black;
+    margin: 5px;
   }
 
   ul li a { 
       color: black;
   }
 
-img:hover {
-    opacity: 0.5;
-    // max-width: 100%;
+// img:hover {
+//     // opacity: 0.5;
+//     // transition: .5s ease;
+//     opacity: 0.5;
+//     // position: absolute;
+    
+//     // transform: translate(-50%, -50%);
+//     // -ms-transform: translate(-50%, -50%);
+//     // text-align: center;
+//     // max-width: 100%;
  
+// }
+
+.img-top {
+//     opacity: 1;
+//   display: block;
+  width: 100%;
+//   height: auto;
+//   transition: .5s ease;
+//   backface-visibility: hidden;
+border-radius: 25px;
+
 }
+
+
+
+.notABox:hover  {
+    opacity: 0.5;
+}
+
+
+
 
 input {
     width: 60%;
 }
-#serach {
-    position: absolute;
-}
+
 .container-fluid {
     margin: 1em;
     padding-right: 3em;
@@ -44,6 +67,7 @@ input {
             // display: inline-block;
             .notABox {
                 margin-bottom: 50px;
+                // border-radius: 25px;
                 // padding: 0.25rem;
                 // flex: 1 1 auto;
             }
@@ -52,6 +76,10 @@ input {
     }
 }
 
+input {
+    background-color: #E8E8E8;
+
+}
 .navbar1 {
     display: flex;
     flex-direction: row;
@@ -59,12 +87,15 @@ input {
     justify-content: space-between;
     align-items: baseline;
     min-width: 830px;
-    background-color: #E8E8E8;
 
 }
 
 #img1 {
     height: 40px;
     width: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+
 }
 

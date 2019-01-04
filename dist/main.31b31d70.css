@@ -9515,22 +9515,24 @@ ul li {
   list-style-type: none;
   display: inline;
   color: black;
+  margin: 5px;
 }
 
 ul li a {
   color: black;
 }
 
-img:hover {
+.img-top {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.notABox:hover {
   opacity: 0.5;
 }
 
 input {
   width: 60%;
-}
-
-#serach {
-  position: absolute;
 }
 
 .container-fluid {
@@ -9542,6 +9544,10 @@ input {
   margin-bottom: 50px;
 }
 
+input {
+  background-color: #E8E8E8;
+}
+
 .navbar1 {
   display: flex;
   flex-direction: row;
@@ -9549,10 +9555,12 @@ input {
   justify-content: space-between;
   align-items: baseline;
   min-width: 830px;
-  background-color: #E8E8E8;
 }
 
 #img1 {
   height: 40px;
   width: 40px;
+  margin-left: 20px;
+  margin-top: 10px;
+  position: relative;
 }
